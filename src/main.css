@@ -1,0 +1,89 @@
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.main-heading {
+    margin: 1rem 0;
+}
+
+.LoginFields {
+    margin: 1rem 0;
+}
+
+.LoginFields-form {
+    border-radius: 4px;
+    width: 90%;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.LoginFields-input {
+    display: block;
+    border: 2px solid #000;
+    background-color: transparent;
+    padding: .7rem 1rem;
+    margin: .5rem auto;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+.LoginFields-input:disabled,
+.LoginFields-btn:disabled {
+    background-color: #e1dede;
+}
+
+.LoginFields-btn {
+    display: inline-block;
+    padding: .5rem .7rem;
+    background-color: transparent;
+    border: 2px solid black;
+    margin: .5rem;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+.token-container {
+    border: 1px solid black;
+    width: 90%;
+    overflow: hidden;
+    margin: 1rem auto;
+    word-break: break-all;
+}
+
+.token-container.expanded {
+    white-space: pre-wrap;
+}
+
+.token-expand-btn {
+    display: inline-block;
+    padding: .3rem .4rem;
+    background-color: transparent;
+    border: 2px solid black;
+    margin: .5rem;
+    border-radius: 4px;
+    font-size: .7rem;
+}
+
+.SongDetails-image-holder {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.SongDetails-info {
+    margin-bottom: 4rem;
+}
